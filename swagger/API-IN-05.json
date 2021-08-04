@@ -1,0 +1,34 @@
+{
+  "property-list": [
+    {
+      "contractor-id": "000001",
+      "property-name": "11111物件マンション"
+    },
+    {
+      "contractor-id": "000002",
+      "property-name": "22222物件マンション"
+    },
+    {
+      "contractor-id": "000003",
+      "property-name": "33333物件マンション"
+    },
+    {
+      "contractor-id": "000004",
+      "property-name": "44444物件マンション"
+    },
+    {
+      "contractor-id": "000005",
+      "property-name": "55555物件マンション"
+    },
+    {
+      "contractor-id": "000006",
+      "property-name": "66666物件マンション"
+    },
+    {
+      "contractor-id": "000007",
+      "property-name": "77777物件マンション"
+    }
+    
+  ],
+  "current-contractor-id": "000001"
+}

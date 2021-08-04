@@ -1,0 +1,9 @@
+{
+  "status": "OK",
+  "message": "OK updated",
+  "error-message-list" : [{
+    "service-site-id": "ID001",
+    "service-site-name": "101",
+    "message-id": "IOTC-MSG-COM-000E"
+ }]
+}

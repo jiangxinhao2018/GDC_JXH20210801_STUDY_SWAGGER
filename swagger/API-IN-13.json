@@ -1,0 +1,51 @@
+{"mail-send-interval" : 24,
+"site-list" : [
+	{
+	  "service-site-id": "101",
+	  "service-site-name" : "101",
+	  "mail-send-flag": "1",
+	  "comment": "test1"
+	 },
+	 {
+	  "service-site-id": "102",
+	  "service-site-name" : "102",
+	  "mail-send-flag": "2",
+	  "comment": "test2"
+	 },
+	 {
+	  "service-site-id": "103",
+	  "service-site-name" : "103",
+	  "mail-send-flag": "1",
+	  "comment": "test3"
+	 },
+	 {
+	  "service-site-id": "104",
+	  "service-site-name" : "104",
+	  "mail-send-flag": "1",
+	  "comment": "test4"
+	 },
+	 {
+	  "service-site-id": "105",
+	  "service-site-name" : "105",
+	  "mail-send-flag": "2",
+	  "comment": "test5"
+	 },
+	 {
+	  "service-site-id": "106",
+	  "service-site-name" : "106",
+	  "mail-send-flag": "1",
+	  "comment": "test6"
+	 },
+	 {
+	  "service-site-id": "107",
+	  "service-site-name": "107",
+	  "mail-send-flag": "2",
+	  "comment": "test7"
+	 },
+	 {
+	  "service-site-id": "108",
+	  "service-site-name": "108",
+	  "mail-send-flag": "2",
+	  "comment": "test8"
+	 }
+]}

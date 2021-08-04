@@ -1,0 +1,52 @@
+{
+    "not-openclose-list": [
+        {
+            "contractor-id": "Tcid0000011",
+            "property-name": "IoTセンターアプリ保守動作確認物件11",
+            "service-site-id": "Tssid00011",
+            "service-site-name": "保守動作確認用11",
+            "service-status": 1,
+            "event-date": "20210620190000"
+        },
+        {
+            "contractor-id": "Tcid0000012",
+            "property-name": "IoTセンターアプリ保守動作確認物件12",
+            "service-site-id": "Tssid00012",
+            "service-site-name": "保守動作確認用12",
+            "service-status": 2,
+			"elec-status": 3,
+            "elec-subject": "外出されていたため未開閉。",
+            "event-date": "20210620190000"
+        },
+        {
+            "contractor-id": "Tcid0000013",
+            "property-name": "IoTセンターアプリ保守動作確認物件13",
+            "service-site-id": "Tssid00013",
+            "service-site-name": "保守動作確認用13",
+            "service-status": 3,
+			"elec-status": 2,
+            "elec-subject": "以後架電をやめてほしい。",
+            "event-date": "20210620190000"
+        },
+        {
+            "contractor-id": "Tcid0000014",
+            "property-name": "IoTセンターアプリ保守動作確認物件14",
+            "service-site-id": "Tssid00014",
+            "service-site-name": "保守動作確認用14",
+            "service-status": 2,
+			"elec-status": 1,
+            "elec-subject": "管理会社への連絡必要。",
+            "event-date": "20210620190000"
+        }
+    ],
+    "notifiction-list": [
+        {
+            "contractor-id": "Tcid0000011",
+            "property-name": "IoTセンターアプリ保守動作確認物件",
+            "service-site-id": "Tssid00011",
+            "service-site-name": "保守動作確認用",
+            "event-date": "20210620190000",
+            "msg-text": "新しいファームウェアがあります。ファームウェア更新を行ってください。"
+        }
+    ]
+}

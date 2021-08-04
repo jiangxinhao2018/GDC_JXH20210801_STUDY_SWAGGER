@@ -1,0 +1,374 @@
+{
+  "device-list": [
+	{
+	  "service-site-id": "1000000001",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000002",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000003",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000004",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000005",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000006",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000007",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000008",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000009",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000010",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000011",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000012",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000013",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000014",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000015",
+	  "service-site-name": "001D12345678901",
+	  "service-id":"1000000001",
+	  "hgw-serial-no":"1234567890100001",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"0",
+	  "sensor-list":[{
+	  	"device-sensor-id":"81D1234567890",
+	  	"device-serial-no":"12345678901101001",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  },
+	  {
+	  	"device-sensor-id":"09D1234567890",
+	  	"device-serial-no":"1234567890101002",
+	  	"device-com-date":"2020-12-10T00:00:00Z",
+	  	"low-battery-flag":"1"
+	  }]
+	},
+	{
+	  "service-site-id": "1000000016",
+	  "service-site-name": "016D12345678901",
+	  "service-id":"1000000016",
+	  "hgw-serial-no":"1234567890100016",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"1",
+	  "sensor-list":[{
+		  "device-sensor-id":"16D1234567890",
+		  "device-serial-no":"1234567890116001",
+		  "device-com-date":"2020-12-10T00:00:00Z",
+		  "low-battery-flag":"1"
+	  }]	  
+	},
+	{
+	  "service-site-id": "1000000017",
+	  "service-site-name": "017D12345678901",
+	  "service-id":"1000000017",
+	  "hgw-serial-no":"1234567890100017",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"1",
+	  "sensor-list":[{
+		  "device-sensor-id":"17D1234567890",
+		  "device-serial-no":"1234567890117001",
+		  "device-com-date":"2020-12-10T00:00:00Z",
+		  "low-battery-flag":"1"
+	  }]	  
+	},
+	{
+	  "service-site-id": "1000000018",
+	  "service-site-name": "018D12345678901",
+	  "service-id":"1000000018",
+	  "hgw-serial-no":"1234567890100018",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"1",
+	  "sensor-list":[{
+		  "device-sensor-id":"18D1234567890",
+		  "device-serial-no":"1234567890118001",
+		  "device-com-date":"2020-12-10T00:00:00Z",
+		  "low-battery-flag":"1"
+	  }]	  
+	},
+	{
+	  "service-site-id": "1000000019",
+	  "service-site-name": "019D12345678901",
+	  "service-id":"1000000019",
+	  "hgw-serial-no":"1234567890100019",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"1",
+	  "sensor-list":[{
+		  "device-sensor-id":"19D1234567890",
+		  "device-serial-no":"1234567890119001",
+		  "device-com-date":"2020-12-10T00:00:00Z",
+		  "low-battery-flag":"1"
+	  }]	  
+	},
+	{
+	  "service-site-id": "1000000020",
+	  "service-site-name": "020D12345678901",
+	  "service-id":"1000000020",
+	  "hgw-serial-no":"1234567890100020",
+	  "firmware-update-flag": "1",
+	  "hgw-com-status":"1",
+	  "sensor-list":[{
+		  "device-sensor-id":"20D1234567890",
+		  "device-serial-no":"1234567890120001",
+		  "device-com-date":"2020-12-10T00:00:00Z",
+		  "low-battery-flag":"1"
+	  }]	  
+	}
+  ]
+}

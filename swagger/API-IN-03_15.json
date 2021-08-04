@@ -1,0 +1,65 @@
+{
+  "service-site-list": [
+    {
+      "user-account-id": "0000000001",
+      "landlord": "田中　一郎１"
+    },
+    {
+      "user-account-id": "0000000002",
+      "landlord": "田中　一郎２"
+    },
+    {
+      "user-account-id": "0000000003",
+      "landlord": "田中　一郎３"
+    },
+    {
+      "user-account-id": "0000000004",
+      "landlord": "田中　一郎４"
+    },
+    {
+      "user-account-id": "0000000005",
+      "landlord": "田中　一郎５"
+    },
+    {
+      "index": "6",
+      "user-account-id": "0000000006",
+      "landlord": "田中　一郎６"
+    },
+    {
+      "user-account-id": "0000000007",
+      "landlord": "田中　一郎７"
+    },
+    {
+      "user-account-id": "0000000008",
+      "landlord": "田中　一郎８"
+    },
+    {
+      "user-account-id": "0000000009",
+      "landlord": "田中　一郎９"
+    },
+    {
+      "user-account-id": "0000000010",
+      "landlord": "田中　一郎１０"
+    },
+    {
+      "user-account-id": "0000000011",
+      "landlord": "田中　一郎１１"
+    },
+    {
+      "user-account-id": "0000000012",
+      "landlord": "田中　一郎１２"
+    },
+    {
+      "user-account-id": "0000000013",
+      "landlord": "田中　一郎１３"
+    },
+    {
+      "user-account-id": "0000000014",
+      "landlord": "田中　一郎１４"
+    },
+    {
+      "user-account-id": "0000000015",
+      "landlord": "田中　一郎１５"
+    }
+  ]
+}

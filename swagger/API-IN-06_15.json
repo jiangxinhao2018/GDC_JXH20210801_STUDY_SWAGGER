@@ -1,0 +1,321 @@
+{
+  "not-openclose-list": [
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "101",
+      "service-site-name": "101",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "101",
+      "service-site-name": "101",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "101",
+      "service-site-name": "101",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "102",
+      "service-site-name": "102",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "102",
+      "service-site-name": "102",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "102",
+      "service-site-name": "102",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "103",
+      "service-site-name": "103",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "103",
+      "service-site-name": "103",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "103",
+      "service-site-name": "103",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "104",
+      "service-site-name": "104",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "104",
+      "service-site-name": "104",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "104",
+      "service-site-name": "104",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "105",
+      "service-site-name": "105",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "105",
+      "service-site-name": "105",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "105",
+      "service-site-name": "105",
+      "comment": ""
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "106",
+      "service-site-name": "106",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "106",
+      "service-site-name": "106",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "106",
+      "service-site-name": "106",
+      "comment": "2020-07-01 観光"
+    }
+    ,
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "107",
+      "service-site-name": "107",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "107",
+      "service-site-name": "107",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "107",
+      "service-site-name": "107",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "108",
+      "service-site-name": "108",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "108",
+      "service-site-name": "108",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "108",
+      "service-site-name": "108",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "109",
+      "service-site-name": "109",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "109",
+      "service-site-name": "109",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "109",
+      "service-site-name": "109",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "110",
+      "service-site-name": "110",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "110",
+      "service-site-name": "110",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "110",
+      "service-site-name": "110",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "111",
+      "service-site-name": "111",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "111",
+      "service-site-name": "111",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "111",
+      "service-site-name": "111",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "112",
+      "service-site-name": "112",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "112",
+      "service-site-name": "112",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "112",
+      "service-site-name": "112",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "113",
+      "service-site-name": "113",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "113",
+      "service-site-name": "113",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "113",
+      "service-site-name": "113",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "114",
+      "service-site-name": "114",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "114",
+      "service-site-name": "114",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "114",
+      "service-site-name": "114",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201201121212",
+      "service-status" : "1",
+      "service-site-id": "115",
+      "service-site-name": "115",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201203121212",
+      "service-status" : "3",
+      "service-site-id": "115",
+      "service-site-name": "115",
+      "comment": "2020-07-01 観光"
+    },
+    {
+      "event-date" : "20201202121212",
+      "service-status" : "2",
+      "service-site-id": "115",
+      "service-site-name": "115",
+      "comment": "2020-07-01 観光"
+    }
+    
+  ]
+}

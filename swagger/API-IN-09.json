@@ -1,0 +1,17 @@
+{
+"site-list" : [
+    {
+	  "service-site-id": "101",
+	  "service-site-name": "test0001"
+	},
+	{
+	  "service-site-id": "102",
+	  "service-site-name": "test0002"
+	},
+	{
+	  "service-site-id": "103",
+	  "service-site-name": "test0003"
+	}
+	]
+	
+}

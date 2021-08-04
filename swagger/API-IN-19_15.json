@@ -1,0 +1,224 @@
+{
+  "device-list":[
+	{
+	  "service-site-id":"1234567891",
+	  "service-site-name": "101",
+	  "service-id": "001D123",
+	  "hgw-serial-no": "001D1234",
+	  "hgw-com-status":"0",
+	  "dongle-serial-no":"001D12345",
+	  "dongle-com-status":"0",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890101",
+	  	"device-serial-no":"001D12001",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  },
+	  {
+	    "device-sensor-id":"1234567890101",
+	  	"device-serial-no":"001D12002",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  },
+	  {
+	    "device-sensor-id":"1234567890101",
+	  	"device-serial-no":"001D12003",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567892",
+	  "service-site-name": "102",
+	  "service-id": "002D123",
+	  "hgw-serial-no": "002D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"002D12001",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890102",
+	  	"device-serial-no":"002D12002",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  },{
+	    "device-sensor-id":"1234567890004",
+	  	"device-serial-no":"002D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567893",
+	  "service-site-name": "103",
+	  "service-id": "003D123",
+	  "hgw-serial-no": "002D1234",
+	  "hgw-com-status":"2",
+	  "dongle-serial-no":"003D12345",
+	  "dongle-com-status":"8",
+	  "sensor-list":[]
+	},
+	{
+	  "service-site-id":"1234567894",
+	  "service-site-name": "104",
+	  "service-id": "004D123",
+	  "hgw-serial-no": "",
+	  "hgw-com-status":"7",
+	  "dongle-serial-no":"004D12345",
+	  "dongle-com-status":"9",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890004",
+	  	"device-serial-no":"004D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567895",
+	  "service-site-name": "105",
+	  "service-id": "005D123",
+	  "hgw-serial-no": "005D1234",
+	  "hgw-com-status":"8",
+	  "dongle-serial-no":"005D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890005",
+	  	"device-serial-no":"005D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567896",
+	  "service-site-name": "106",
+	  "service-id": "006D123",
+	  "hgw-serial-no": "006D1234",
+	  "hgw-com-status":"9",
+	  "dongle-serial-no":"006D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890006",
+	  	"device-serial-no":"006D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567897",
+	  "service-site-name": "107",
+	  "service-id": "007D123",
+	  "hgw-serial-no": "007D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"007D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890007",
+	  	"device-serial-no":"007D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567898",
+	  "service-site-name": "108",
+	  "service-id": "008D123",
+	  "hgw-serial-no": "008D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"008D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890008",
+	  	"device-serial-no":"008D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567899",
+	  "service-site-name": "109",
+	  "service-id": "009D123",
+	  "hgw-serial-no": "009D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"009D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890009",
+	  	"device-serial-no":"009D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567810",
+	  "service-site-name": "110",
+	  "service-id": "010D123",
+	  "hgw-serial-no": "004D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"010D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890010",
+	  	"device-serial-no":"010D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567811",
+	  "service-site-name": "111",
+	  "service-id": "011D123",
+	  "hgw-serial-no": "011D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"011D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890011",
+	  	"device-serial-no":"011D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567812",
+	  "service-site-name": "112",
+	  "service-id": "012D123",
+	  "hgw-serial-no": "012D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"012D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890012",
+	  	"device-serial-no":"012D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567813",
+	  "service-site-name": "113",
+	  "service-id": "013D123",
+	  "hgw-serial-no": "013D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"013D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	  	"device-sensor-id":"1234567890013",
+	  	"device-serial-no":"013D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567814",
+	  "service-site-name": "114",
+	  "service-id": "014D123",
+	  "hgw-serial-no": "014D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"014D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	  	"device-sensor-id":"1234567890014",
+	  	"device-serial-no":"014D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	},
+	{
+	  "service-site-id":"1234567815",
+	  "service-site-name": "115",
+	  "service-id": "015D123",
+	  "hgw-serial-no": "015D1234",
+	  "hgw-com-status":"1",
+	  "dongle-serial-no":"015D12345",
+	  "dongle-com-status":"1",
+	  "sensor-list":[{
+	    "device-sensor-id":"1234567890015",
+	  	"device-serial-no":"015D12345",
+	  	"device-com-date":"2020-12-10T00:00:00Z"
+	  }]
+	}
+  ]
+}
