@@ -1,0 +1,12 @@
+swagger:
+  enable: false
+  appName: 高齢者見守り管理Web用
+  appVersion: 2.0.0
+  tryHost: 8080
+  appDescription: 高齢者見守り管理Web用
+
+file:
+  data-path: C:\TGC2S\swagger
+  
+server:
+  port: 8099
