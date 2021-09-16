@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
@@ -62,7 +63,7 @@ public class DevicesController extends BaseController {
         Object returnJson = super.getJsonData("API-IN-19", null);
         ResponseUtils.ok(response, returnJson);
     }
-    
+
     @ApiOperation(value = "管理Web向けHGW登録", notes = "API-IN-20")
     @PostMapping("mwb-hgw-serialno")
     @ResponseStatus(code = HttpStatus.CREATED)
@@ -108,4 +109,13 @@ public class DevicesController extends BaseController {
         super.writeJsonData("API-IN-19", null, returnJson);
     }
 
+    @ApiOperation(value = "HGW登録", notes = "API-D-01")
+    @PostMapping("hgw")
+    @ResponseStatus(code = HttpStatus.CREATED)
+    public void API_D_01(HttpServletResponse response, @RequestBody String jsonStr) {
+        JSONObject bodyJson = JSON.parseObject(jsonStr);
+        // HGWシリアル番号
+        String mailAddress = bodyJson.getString("serial-no");
+        ResponseUtils.ok(response);
+    }
 }
