@@ -35,9 +35,11 @@ public class ServicesController extends BaseController {
 
     @ApiOperation(value = "開閉状況取得", notes = "API-IN-06")
     @GetMapping("mwb-site-status")
+    @ResponseStatus(code = HttpStatus.OK)
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "search-start-date", value = "検索開始日時(YYYYMMDDhhmmss)", required = true, dataType = "String", dataTypeClass = String.class, paramType = "query"),
-            @ApiImplicitParam(name = "search-end-date", value = "検索終了日時(YYYYMMDDhhmmss)", required = true, dataType = "String", dataTypeClass = String.class, paramType = "query") })
+        @ApiImplicitParam(name = "search-start-date", value = "検索開始日時(YYYYMMDDhhmmss)", required = true, dataType = "String", dataTypeClass = String.class, paramType = "query"),
+        @ApiImplicitParam(name = "search-end-date", value = "検索終了日時(YYYYMMDDhhmmss)", required = true, dataType = "String", dataTypeClass = String.class, paramType = "query")
+    })
     public void API_IN_06(HttpServletResponse response,
             @RequestParam(value = "search-start-date") String searchStartDate,
             @RequestParam(value = "search-end-date") String searchEndDate) {
@@ -47,14 +49,16 @@ public class ServicesController extends BaseController {
 
     @ApiOperation(value = "ダッシュボード情報表示取得", notes = "API-IN-07")
     @GetMapping("mwb-dashboard")
+    @ResponseStatus(code = HttpStatus.OK)
     public void API_IN_07(HttpServletResponse response) {
         JSONObject returnJson = super.getJsonData("API-IN-07", null);
         ResponseUtils.ok(response, returnJson);
     }
 
     @ApiOperation(value = "未開閉検知メールアドレス情報取得", notes = "API-IN-10")
-    @ApiImplicitParam(name = "service-site-id", value = "利用地点ID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "path")
     @GetMapping("mwb-site-contact/{service-site-id}")
+    @ResponseStatus(code = HttpStatus.OK)
+    @ApiImplicitParam(name = "service-site-id", value = "利用地点ID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "path")
     public void API_IN_10(HttpServletResponse response, @PathVariable("service-site-id") String serviceSiteId) {
         JSONObject returnJson = super.getJsonData("API-IN-10", null);
         ResponseUtils.ok(response, returnJson);
@@ -90,6 +94,7 @@ public class ServicesController extends BaseController {
 
     @ApiOperation(value = "未開閉検知サービス設定取得", notes = "API-IN-13")
     @GetMapping("mwb-site-services")
+    @ResponseStatus(code = HttpStatus.OK)
     public void API_IN_13(HttpServletResponse response) {
         JSONObject returnJson = super.getJsonData("API-IN-13", null);
         ResponseUtils.ok(response, returnJson);

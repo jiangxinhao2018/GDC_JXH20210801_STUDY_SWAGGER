@@ -36,6 +36,7 @@ public class DevicesController extends BaseController {
 
     @ApiOperation(value = "機器状態取得", notes = "API-IN-16")
     @GetMapping("mwb-devices")
+    @ResponseStatus(code = HttpStatus.OK)
     public void API_IN_16(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-16", null);
         ResponseUtils.ok(response, returnJson);
@@ -59,6 +60,7 @@ public class DevicesController extends BaseController {
 
     @ApiOperation(value = "管理者向け機器状態取得", notes = "API-IN-19")
     @GetMapping("mwb-admin-devices")
+    @ResponseStatus(code = HttpStatus.OK)
     public void API_IN_19(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-19", null);
         ResponseUtils.ok(response, returnJson);
@@ -74,17 +76,19 @@ public class DevicesController extends BaseController {
 
     @ApiOperation(value = "管理Web向けHGWシリアル番号更新", notes = "API-IN-21")
     @PutMapping("mwb-hgw-serialno")
+    @ResponseStatus(code = HttpStatus.OK)
     public void API_IN_21(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-21", null);
         ResponseUtils.ok(response, returnJson);
     }
 
     @ApiOperation(value = "管理Web向けデバイス情報削除", notes = "API-IN-22")
-    @ApiImplicitParams({
-        @ApiImplicitParam(name = "device-id", value = "利用機器ID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "path"),
-        @ApiImplicitParam(name = "service-site-id", value = "利用地点ID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "query") })
     @DeleteMapping("mwb-device/{device-id}")
     @ResponseStatus(code = HttpStatus.NO_CONTENT)
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "device-id", value = "利用機器ID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "path"),
+        @ApiImplicitParam(name = "service-site-id", value = "利用地点ID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "query")
+    })
     public void API_IN_22(HttpServletResponse response, @PathVariable("device-id")String deviceId, @RequestParam(value = "service-site-id")String serviceSiteId) {
         JSONObject returnJson = super.getJsonData("API-IN-19", null);
         JSONArray deviceList = returnJson.getJSONArray("device-list");

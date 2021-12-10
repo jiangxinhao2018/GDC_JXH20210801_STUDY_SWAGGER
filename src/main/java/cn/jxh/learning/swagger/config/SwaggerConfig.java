@@ -39,13 +39,27 @@ public class SwaggerConfig {
                 //设定Api文档头信息，这个信息会展示在文档UI的头部位置
                 .apiInfo(swaggerApiInfo())
 //                .host(swaggerProperties.getTryHost())
-//                .globalRequestParameters(globalRequestParameters())
+//                .globalRequestParameters(globalBaseParameters())
                 .select()
                 //添加过滤条件，谓词过滤predicate，这里是自定义注解进行过滤
                 .apis(RequestHandlerSelectors.any())
-                .paths(PathSelectors.regex("/user.*").or(PathSelectors.regex("/devices.*"))
-                        .or(PathSelectors.regex("/services.*"))
-                        .or(PathSelectors.regex("/duke.*")))
+                .paths(PathSelectors.any())
+                .build();
+    }
+
+    @Bean
+    public Docket createDeviceApi(){
+        return new Docket(DocumentationType.OAS_30)
+                .groupName("デバイス管理")
+//                .enable(swaggerProperties.getEnable())
+                //设定Api文档头信息，这个信息会展示在文档UI的头部位置
+                .apiInfo(swaggerApiInfo())
+//                .host(swaggerProperties.getTryHost())
+                .globalRequestParameters(globalAllParameters())
+                .select()
+                //添加过滤条件，谓词过滤predicate，这里是自定义注解进行过滤
+                .apis(RequestHandlerSelectors.any())
+                .paths(PathSelectors.regex("/devices.*"))
 //                .paths(PathSelectors.any())
                 .build();
     }
@@ -53,14 +67,44 @@ public class SwaggerConfig {
     @Bean
     public Docket createUserApi(){
         return new Docket(DocumentationType.OAS_30)
-                .groupName("管理ユーザー")
+                .groupName("ユーザー管理")
 //                .enable(swaggerProperties.getEnable())
                 .apiInfo(swaggerApiInfo())
 //                .host(swaggerProperties.getTryHost())
-                .globalRequestParameters(globalRequestParameters())
+                .globalRequestParameters(globalUserParameters())
                 .select()
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.regex("/user.*"))
+//                .paths(PathSelectors.any())
+                .build();
+    }
+
+    @Bean
+    public Docket createServiceApi(){
+        return new Docket(DocumentationType.OAS_30)
+                .groupName("サービス管理")
+//                .enable(swaggerProperties.getEnable())
+                .apiInfo(swaggerApiInfo())
+//                .host(swaggerProperties.getTryHost())
+                .globalRequestParameters(globalAllParameters())
+                .select()
+                .apis(RequestHandlerSelectors.any())
+                .paths(PathSelectors.regex("/services.*"))
+//                .paths(PathSelectors.any())
+                .build();
+    }
+
+    @Bean(value = "DUKE管理")
+    public Docket createDukeApi(){
+        return new Docket(DocumentationType.OAS_30)
+                .groupName("DUKE認証")
+//                .enable(swaggerProperties.getEnable())
+                .apiInfo(swaggerApiInfo())
+//                .host(swaggerProperties.getTryHost())
+//                .globalRequestParameters(globalRequestParameters())
+                .select()
+//                .apis(RequestHandlerSelectors.basePackage("cn.jxh.learning.swagger.controller"))
+                .paths(PathSelectors.regex("/duke.*"))
 //                .paths(PathSelectors.any())
                 .build();
     }
@@ -79,14 +123,24 @@ public class SwaggerConfig {
                     .build();
     }
 
-    private List<RequestParameter> globalRequestParameters() {
+    private List<RequestParameter> globalUserParameters() {
         List<RequestParameter> keyList = new ArrayList<RequestParameter>();
         keyList.add(new RequestParameterBuilder().name("Authorization").required(true).description("認証情報").in(ParameterType.HEADER).build());
         keyList.add(new RequestParameterBuilder().name("x-api-key").required(true).description("API-KEY").in(ParameterType.HEADER).build());
         keyList.add(new RequestParameterBuilder().name("X-Cf-Secret").required(true).description("CloudFront 認証").in(ParameterType.HEADER).build());
         keyList.add(new RequestParameterBuilder().name("x-tgiot-http-request-id").required(true).description("HTTPリクエストID").in(ParameterType.HEADER).build());
         return keyList;
+    }
 
+    private List<RequestParameter> globalAllParameters() {
+        List<RequestParameter> keyList = new ArrayList<RequestParameter>();
+        keyList.add(new RequestParameterBuilder().name("Authorization").required(true).description("認証情報").in(ParameterType.HEADER).build());
+        keyList.add(new RequestParameterBuilder().name("x-api-key").required(true).description("API-KEY").in(ParameterType.HEADER).build());
+        keyList.add(new RequestParameterBuilder().name("X-Cf-Secret").required(true).description("CloudFront 認証").in(ParameterType.HEADER).build());
+        keyList.add(new RequestParameterBuilder().name("x-tgiot-login-token").required(true).description("ログイントークン").in(ParameterType.HEADER).build());
+        keyList.add(new RequestParameterBuilder().name("x-tgiot-mobile-session-id").required(true).description("モバイルセッションID").in(ParameterType.HEADER).build());
+        keyList.add(new RequestParameterBuilder().name("x-tgiot-http-request-id").required(true).description("HTTPリクエストID").in(ParameterType.HEADER).build());
+        return keyList;
     }
 
 }

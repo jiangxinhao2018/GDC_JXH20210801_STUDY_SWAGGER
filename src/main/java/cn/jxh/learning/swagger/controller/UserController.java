@@ -21,6 +21,8 @@ import cn.jxh.learning.swagger.entity.User;
 import cn.jxh.learning.swagger.utils.CommonUtils;
 import cn.jxh.learning.swagger.utils.ResponseUtils;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import springfox.documentation.annotations.ApiIgnore;
@@ -43,8 +45,9 @@ public class UserController extends BaseController {
     }
 
     @ApiOperation(value = "管理Web用端末登録", notes = "API-IN-01")
-    @ResponseStatus(code = HttpStatus.CREATED)
     @PostMapping("mwb-login")
+    @ResponseStatus(code = HttpStatus.CREATED)
+    @ApiImplicitParam(name = "x-tgiot-login-token", value = "ログイントークン", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header")
     public void API_IN_01(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-01", null);
         ResponseUtils.ok(response, returnJson);
@@ -62,6 +65,10 @@ public class UserController extends BaseController {
     @ApiOperation(value = "オーナー/管理者情報取得", notes = "API-IN-03")
     @PostMapping("mwb-owners")
     @ResponseStatus(code = HttpStatus.CREATED)
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "x-tgiot-login-token", value = "ログイントークン", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header"),
+        @ApiImplicitParam(name = "x-tgiot-mobile-session-id", value = "モバイルセッションID", required = false, dataType = "String", dataTypeClass = String.class, paramType = "header")
+    })
     public void API_IN_03(HttpServletResponse response, @RequestBody String jsonStr) {
         JSONObject bodyJson = JSON.parseObject(jsonStr);
         // 検索条件文字列
@@ -72,6 +79,11 @@ public class UserController extends BaseController {
 
     @ApiOperation(value = "管理Web管理者用セッション取得・更新", notes = "API-IN-04")
     @PutMapping("mwb-admin-session")
+    @ResponseStatus(code = HttpStatus.OK)
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "x-tgiot-login-token", value = "ログイントークン", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header"),
+        @ApiImplicitParam(name = "x-tgiot-mobile-session-id", value = "モバイルセッションID", required = false, dataType = "String", dataTypeClass = String.class, paramType = "header")
+    })
     public void API_IN_04(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-04", null);
         ResponseUtils.ok(response, returnJson);
@@ -79,6 +91,11 @@ public class UserController extends BaseController {
 
     @ApiOperation(value = "物件リスト取得", notes = "API-IN-05")
     @GetMapping("mwb-properties")
+    @ResponseStatus(code = HttpStatus.OK)
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "x-tgiot-login-token", value = "ログイントークン", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header"),
+        @ApiImplicitParam(name = "x-tgiot-mobile-session-id", value = "モバイルセッションID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header")
+    })
     public void API_IN_05(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-05", null);
         ResponseUtils.ok(response, returnJson);
@@ -86,6 +103,11 @@ public class UserController extends BaseController {
 
     @ApiOperation(value = "選択済みサービス利用番号更新", notes = "API-IN-08")
     @PutMapping("mwb-contractor")
+    @ResponseStatus(code = HttpStatus.OK)
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "x-tgiot-login-token", value = "ログイントークン", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header"),
+        @ApiImplicitParam(name = "x-tgiot-mobile-session-id", value = "モバイルセッションID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header")
+    })
     public void API_IN_08(@RequestBody String jsonStr) {
         JSONObject bodyJson = JSON.parseObject(jsonStr);
         // 検索条件文字列
@@ -95,6 +117,11 @@ public class UserController extends BaseController {
 
     @ApiOperation(value = "部屋番号リスト取得", notes = "API-IN-09")
     @GetMapping("mwb-sites")
+    @ResponseStatus(code = HttpStatus.OK)
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "x-tgiot-login-token", value = "ログイントークン", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header"),
+        @ApiImplicitParam(name = "x-tgiot-mobile-session-id", value = "モバイルセッションID", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header")
+    })
     public void API_IN_09(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-09", null);
         ResponseUtils.ok(response, returnJson);
@@ -103,6 +130,10 @@ public class UserController extends BaseController {
     @ApiOperation(value = "管理Web用ログアウト", notes = "API-IN-23")
     @PostMapping("mwb-logout")
     @ResponseStatus(code = HttpStatus.CREATED)
+    @ApiImplicitParams({
+        @ApiImplicitParam(name = "x-tgiot-login-token", value = "ログイントークン", required = true, dataType = "String", dataTypeClass = String.class, paramType = "header"),
+        @ApiImplicitParam(name = "x-tgiot-mobile-session-id", value = "モバイルセッションID", required = false, dataType = "String", dataTypeClass = String.class, paramType = "header")
+    })
     public void API_IN_23(HttpServletResponse response) {
         Object returnJson = super.getJsonData("API-IN-23", null);
         ResponseUtils.ok(response, returnJson);
