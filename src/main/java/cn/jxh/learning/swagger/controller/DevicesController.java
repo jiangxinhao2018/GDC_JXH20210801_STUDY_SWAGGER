@@ -119,7 +119,7 @@ public class DevicesController extends BaseController {
     public void API_D_01(HttpServletResponse response, @RequestBody String jsonStr) {
         JSONObject bodyJson = JSON.parseObject(jsonStr);
         // HGWシリアル番号
-        String mailAddress = bodyJson.getString("serial-no");
+        String serialNo = bodyJson.getString("serial-no");
         ResponseUtils.ok(response);
     }
 }
